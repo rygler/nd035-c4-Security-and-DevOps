@@ -17,17 +17,21 @@ public class CreateUserRequest {
 		return username;
 	}
 
-	public void setUsername(String username) {
+	public CreateUserRequest setUsername(String username) {
 		this.username = username;
+		return this;
 	}
 
-	public void setPassword(String password) {
+	public CreateUserRequest setPassword(String password) {
 		this.password = password;
+		return this;
 	}
 
-	public void setConfirmPassword(String confirmPassword) {
+	public CreateUserRequest setConfirmPassword(String confirmPassword) {
 		this.confirmPassword = confirmPassword;
+		return this;
 	}
+
 	public String getPassword() {
 		return password;
 	}
